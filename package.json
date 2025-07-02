@@ -1,0 +1,25 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^7.9.5",
+    "@fastify/autoload": "^6.0.2",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.1.0",
+    "fastify-plugin": "^5.0.1",
+    "haversine-distance": "^1.2.3",
+    "joi": "^17.13.3",
+    "mongoose": "^8.15.1",
+    "pino-pretty": "^13.0.0",
+    "undici": "^7.10.0"
+  }
+}
